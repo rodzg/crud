@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/funcionario.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header-bg">
+    <!-- Navbar (código já fornecido) -->
+  </header>
+  <main class="container">
+    <h2>Cadastro de Funcionários</h2>
+    <form id="formFuncionario" class="form">
+      <div class="form-group">
+        <label for="nomeFuncionario">Nome:</label>
+        <input type="text" class="form-control" id="nomeFuncionario" name="nomeFuncionario" required>
+      </div>
+      <div class="form-group">
+        <label for="cargoFuncionario">Cargo:</label>
+        <input type="text" class="form-control" id="cargoFuncionario" name="cargoFuncionario" required>
+      </div>
+      <div class="form-group">
+        <label for="salarioFuncionario">Salário:</label>
+        <input type="number" class="form-control" id="salarioFuncionario" name="salarioFuncionario" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar Funcionário</button>
+    </form>
+  </main>
+  <footer class="footer-bg">
+    <!-- Rodapé (código já fornecido) -->
+  </footer>
+</body>
+</html>
